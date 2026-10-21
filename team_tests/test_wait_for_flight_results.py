@@ -30,7 +30,7 @@ def main():
         assert result["data"]["visible_flight_count"] == actual_count
 
         print("PASS: Timeout correctly reported.")
-        page.screenshot(path="team06_failure.png")
+        page.screenshot(path="team_tests/team06_failure.png")
 
         print("\n=== TEST 2: Invalid timeout ===")
 
@@ -74,7 +74,7 @@ def main():
         assert result["data"]["visible_flight_count"] == actual_count
 
         print("PASS: Flight results independently verified.")
-        page.screenshot(path="team06_success.png")
+        page.screenshot(path="team_tests/team06_success.png")
 
         print("\nALL TEAM 06 TESTS PASSED!")
 
